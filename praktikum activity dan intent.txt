@@ -1,0 +1,30 @@
+Activity dan Intent
+
+tips 
+- agar IntelliJ IDEA agak lebih enteng :
+File --> Power Save Mode
+
+- kalau ada error sejenis
+Could not find compile target android-32 for modules :app
+File --> Settings 
+Build, Execution, Deployment --> Build Tools --> Gradle
+	Gradle JVM : Android Studio Default atau Oracle JDK
+
+
+Empty Activity
+buat activity baru
+
+Open Gradle Settings
+	Gradle JVM : Android Studio default JDK
+Change JDK Location
+
+Gradle reload
+
+File --> Project Structure 
+	SDK : Android API 33
+
+
+New --> Activity --> Empty Activity
+	Activity2
+	
+tambahkan Button di MainActivity
