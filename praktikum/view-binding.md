@@ -29,7 +29,7 @@ Melalui tutorial berikut ini akan kita lihat perbedaannya. Pada tutorial ini aka
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
+            android:inputType=""
             android:hint="ketik text di sini"
             android:text=""
             android:ems="10"
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
         // menambahkan listener OnClick, klik pada Button akan mengeksekusi code
         buttonSubmit.setOnClickListener {
             // code yang dieksekusi apabila Button diklik
-            // mengambil text yang diketik pada TextView
+            // mengambil text yang diketik pada EditText
             var textInputFromUser = editTextInput.text.toString()
             // menampilkan text yang diinput dari EditText ke TextView
             textOutput.text = textInputFromUser
@@ -128,10 +128,10 @@ private lateinit var binding: ActivityMainBinding
         // menambahkan listener OnClick, klik pada Button akan mengeksekusi code
         binding.btnSubmit.setOnClickListener {
             // code yang dieksekusi apabila Button diklik
-            // mengambil text yang diketik pada TextView
+            // mengambil text yang diketik pada EditText
             var textInputFromUser = binding.etInput.text.toString()
             // menampilkan text yang diinput dari EditText ke TextView
-            binding.tvResult.text = textInputFromUser
+            binding.tvOutput.text = textInputFromUser
         }
     }
 }
