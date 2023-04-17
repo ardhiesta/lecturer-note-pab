@@ -55,7 +55,9 @@ Melalui tutorial berikut ini akan kita lihat perbedaannya. Pada tutorial ini aka
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-kita akan mendapatkan layout activity sebagai berikut ![viewb](https://github.com/ardhiesta/lecturer-note-pab/blob/main/praktikum/img/viewb.jpg?raw=true)
+kita akan mendapatkan layout activity sebagai berikut 
+
+![viewb](https://github.com/ardhiesta/lecturer-note-pab/blob/main/praktikum/img/viewb.jpg?raw=true)
 
 3. Tambahkan code di MainActivity.kt untuk mengambil text yang diinputkan user dan menampilkan hasilnya di TextView, code selengkapnya adalah sebagai berikut.
 
