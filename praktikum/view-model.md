@@ -50,6 +50,8 @@ Berikut ini adalah code layout aplikasinya (file activity_main.xml)
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
+![viewm](https://github.com/ardhiesta/lecturer-note-pab/blob/main/praktikum/img/counter.jpg?raw=true)
+
 Pada MainActivity.kt, tambahkan code untuk melakukan increment counter dan menampilkan hasilnya di text
 ```
 package com.simple.counter
