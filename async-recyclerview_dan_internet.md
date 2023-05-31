@@ -71,3 +71,33 @@ Alternatif lain untuk menampilkan data di aplikasi mobile adalah menggunakan tab
 
 Slide dapat diunduh [di sini](https://app.box.com/s/fsgds8imd9ouflfw9ksaivzspwnt798h).
 
+### Introduction
+
+Terdapat kondisi tertentu yang mengharuskan sebuah aplikasi Android terhubung ke internet, misalnya ketika mengakses data yang tersimpan di server. Programmer dapat menambahkan fitur koneksi internet pada aplikasi yang dibuat agar dapat mengakses data lewat internet. Untuk menambahkan fitur tersebut terlebih dulu harus diberikan permission (hak akses) ke aplikasi.
+
+### Permission
+
+Merupakan mekanisme untuk menjamin privasi user. Permission dapat diberikan pada saat instalasi ataupun saat runtime. 
+
+Aplikasi Android secara default tidak diberikan hak akses untuk terhubung ke internet. Untuk menambahkannya programmer harus menambahkan baris 
+```
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+di file AndroidManifest.xml.
+
+> **Pertanyaan 3** : Jelaskan mengapa secara default sebuah aplikasi Android tidak diberikan permission untuk terhubung ke internet?
+
+### App permission best practice
+
+* Jangan berikan semua jenis permission, berikan permission-permission spesifik yang hanya dibutuhkan oleh sebuah aplikasi.
+* Perhatikan permission yang dibutuhkan oleh external library.
+* Berikan informasi mengenai permission aplikasi secara transparan dan jelas ke user.
+
+### Menggunakan sumber daya pada jaringan
+
+Sumber daya yang tersedia biasanya berupa data yang diakses melalui internet. Data tersedia dalam bentuk API yang dapat diakses melalui URL. Untuk meudahkan dalam mengakses API terdapat sejumlah library yang dapat digunakan ketika melakukan development aplikasi Android misalnya menggunakan [retrofit](https://square.github.io/retrofit/).
+
+Data yang tersedia di API umumnya diformat dalam bentuk [JSON](https://www.w3schools.com/js/js_json_intro.asp), programmer dapat melakukan parsing data JSON untuk ditampilkan dalam aplikasi.
+
+Contoh code teknis untuk mengakses API dapat dilihat di [slide](https://app.box.com/s/fsgds8imd9ouflfw9ksaivzspwnt798h).
