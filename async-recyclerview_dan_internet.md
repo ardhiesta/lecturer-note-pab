@@ -25,7 +25,7 @@ RecyclerView adalah widget yang digunakan untuk menampilkan data yang jumlahnya 
 
 <figure>
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220801125801/CardViewusingRecyclerViewinAndroid-305x660.jpg" alt="Trulli" style="width:60%">
-<figcaption align = "left"><b>Contoh implementasi RecyclerView</b></figcaption>
+<figcaption align = "left"><p>Contoh implementasi RecyclerView</p></figcaption>
 </figure>
 
 > **Pertanyaan 1** : Tulis 3 contoh implementasi RecyclerView (sebutkan nama aplikasi yang menggunakan RecyclerView dan penggunaannya untuk menampilkan data apa)!
