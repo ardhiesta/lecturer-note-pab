@@ -25,7 +25,7 @@ RecyclerView adalah widget yang digunakan untuk menampilkan data yang jumlahnya 
 
 <figure>
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220801125801/CardViewusingRecyclerViewinAndroid-305x660.jpg" alt="Trulli" style="width:60%">
-<figcaption align = "left"><p>Contoh implementasi RecyclerView</p></figcaption>
+<figcaption align = "left">Gambar 1: Contoh implementasi RecyclerView</figcaption>
 </figure>
 
 > **Pertanyaan 1** : Tulis 3 contoh implementasi RecyclerView (sebutkan nama aplikasi yang menggunakan RecyclerView dan penggunaannya untuk menampilkan data apa)!
@@ -36,7 +36,7 @@ RecyclerView melakukan *recycle* elemen individual penyusunnya. Ketika sebuah *i
 
 <figure>
 <img src="https://github.com/ardhiesta/lecturer-note-pab/blob/main/images/rv.jpg?raw=true" alt="Trulli" style="width:100%">
-<figcaption align = "left"><b>Ilustrasi RecyclerView</b></figcaption>
+<figcaption align = "left">Gambar 2: Ilustrasi RecyclerView</figcaption>
 </figure>
 
 ### RecyclerView (list-based widget) vs Table
@@ -45,7 +45,7 @@ Alternatif lain untuk menampilkan data di aplikasi mobile adalah menggunakan tab
 
 <figure>
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*4ZlAY6HN11n9RyU-lz7B_Q@2x.png" alt="Trulli" style="width:100%">
-<figcaption align = "left"><b>Contoh penggunaan tabel di aplikasi mobile</b></figcaption>
+<figcaption align = "left">Gambar 3: Contoh penggunaan tabel di aplikasi mobile</figcaption>
 </figure>
 
 > **Pertanyaan 2** : Sebutkan kekurangan dan kelebihan menampilkan data menggunakan tampilan tabel di aplikasi mobile!
