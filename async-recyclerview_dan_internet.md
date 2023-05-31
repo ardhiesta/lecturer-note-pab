@@ -34,6 +34,10 @@ RecyclerView adalah widget yang digunakan untuk menampilkan data yang jumlahnya 
 
 RecyclerView melakukan *recycle* elemen individual penyusunnya. Ketika sebuah *item* tidak terlihat di layar karena user melakukan *scroll*, RecyclerView tidak melakukan *destroy* terhadap *view* tersebut namun menggunakannya kembali untuk me-*render* *item* baru yang akan dimunculkan. Desain ini bertujuan untuk meningkatkan *performance* dan mengurangi konsumsi daya.
 
+<figure>
+<img src="https://github.com/ardhiesta/lecturer-note-pab/blob/main/images/rv.jpg?raw=true" alt="Trulli" style="width:100%">
+<figcaption align = "left"><b>Ilustrasi RecyclerView</b></figcaption>
+</figure>
 
 ### RecyclerView (list-based widget) vs Table
 
