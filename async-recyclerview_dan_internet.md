@@ -50,6 +50,23 @@ Alternatif lain untuk menampilkan data di aplikasi mobile adalah menggunakan tab
 
 > **Pertanyaan 2** : Sebutkan kekurangan dan kelebihan menampilkan data menggunakan tampilan tabel di aplikasi mobile!
 
+### [Komponen RecyclerView](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-2-user-experience/lesson-4-user-interaction/4-5-c-recyclerview/4-5-c-recyclerview.html)
+
+<figure>
+<img src="https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/images/4-5-c-recyclerview/dg_recycler_architecture.png" alt="Trulli" style="width:100%">
+<figcaption align = "left">Gambar 4: Komponen RecyclerView</figcaption>
+</figure>
+
+**Data** : Data bisa berasal dari local, misal dari database di smartphone atau bisa diambil dari server melalui koneksi internet.
+
+**Adapter** : Untuk menghubungkan data ke RecyclerView. Adapter mempersiapkan data untuk ditampilkan melalui ViewHolder. Ketika terjadi perubahan data, adapter akan memperbarui isi dari list item view pada RecyclerView.
+
+**ViewHolder** : Berisi informasi untuk menampilkan sebuah view item menggunakan item layout.
+
+**Layout manager** : Layout manager menangani layout (user interface) komponen view yang akan ditampilkan dalam RecyclerView. Setiap ViewGroup (termasuk RecyclerView) memiliki sebuah layout manager. RecyclerView membutuhkan sebuah layout manager eksplisit untuk mengelola susunan list item yang ada di dalamnya. Item-item bisa disusun secara vertikal, horizontal, atau menggunakan grid. 
+
+**Layout untuk satu item data** : Setiap item dalam RecyclerView memiliki tampilan yang sama, hanya berbeda pada isi datanya saja. Perlu dibuat sebuah layout (file xml) yang akan digunakan menampilkan untuk setiap item data. 
+
 ## Materi 2: Membuat Aplikasi dengan Koneksi Internet
 
 Slide dapat diunduh [di sini](https://app.box.com/s/fsgds8imd9ouflfw9ksaivzspwnt798h).
